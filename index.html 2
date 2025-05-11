@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chocoberry ✨</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body class="bg-pink-50 text-gray-800">
+  <nav class="bg-white shadow-md p-4 text-pink-600 font-medium text-lg flex justify-center space-x-6">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="blog.html">Blog</a>
+    <a href="journal.html">Journal</a>
+  </nav>
+
+  <main class="max-w-2xl mx-auto text-center py-16">
+    <h1 class="text-5xl font-bold text-pink-700 mb-6">Welcome to Chocoberry 🍓</h1>
+    <p class="text-xl text-pink-600">A dreamy blog filled with sweet thoughts, sparkles, and soft moments ✨</p>
+  </main>
+</body>
+</html>
