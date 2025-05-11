@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery | Chocoberry ✨</title>
+  <link href="style.css" rel="stylesheet">
+  <style>
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 1rem;
+    }
+
+    .gallery-grid img {
+      border-radius: 1rem;
+      box-shadow: 0 4px 12px rgba(255, 192, 203, 0.4);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery-grid img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body class="bg-pink-50 text-gray-800">
+
+  <nav class="bg-white shadow-md p-4 text-pink-600 font-medium text-lg flex justify-center space-x-6">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="blog.html">Blog</a>
+    <a href="journal.html">Journal</a>
+  </nav>
+
+  <main class="max-w-5xl mx-auto py-12 px-4">
+    <h1 class="text-4xl font-bold text-center text-pink-700 mb-8">My Gallery 📸</h1>
+    <p class="text-center text-pink-600 mb-6">Just a sprinkle of moments I love ✨</p>
+
+    <div class="gallery-grid">
+      <!-- Replace the image URLs below with your own -->
+      <img src="https://placekitten.com/300/300" alt="Cute image 1">
+      <img src="https://placekitten.com/301/301" alt="Cute image 2">
+      <img src="https://placekitten.com/302/302" alt="Cute image 3">
+      <img src="https://placekitten.com/303/303" alt="Cute image 4">
+    </div>
+  </main>
+
+</body>
+</html>
