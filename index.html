@@ -19,5 +19,17 @@
     <h1 class="text-5xl font-bold text-pink-700 mb-6">Welcome to Chocoberry 🍓</h1>
     <p class="text-xl text-pink-600">A dreamy blog filled with sweet thoughts, sparkles, and soft moments ✨</p>
   </main>
+  <script>
+  document.addEventListener("mousemove", function (e) {
+    const sparkle = document.createElement("div");
+    sparkle.className = "trail-sparkle";
+    sparkle.style.left = e.pageX + "px";
+    sparkle.style.top = e.pageY + "px";
+    document.body.appendChild(sparkle);
+
+    setTimeout(() => sparkle.remove(), 1000);
+  });
+</script>
+
 </body>
 </html>
