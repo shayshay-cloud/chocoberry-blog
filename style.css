@@ -5,6 +5,15 @@ body {
   color: #4b2c39;
   margin: 0;
   padding: 0;
+  body {
+  background-image: url("assets/background.png");
+  background-size: auto; 
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  font-family: 'Poppins', sans-serif;
+}
+
 }
 
 h1, h2, h3 {
