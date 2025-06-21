@@ -1,5 +1,6 @@
 /* Base styles */
 body {
+  cursor: url("strawberry-cursor.png"), auto;
   font-family: 'Segoe UI', sans-serif;
   background-color: #fff0f5;
   color: #4b2c39;
